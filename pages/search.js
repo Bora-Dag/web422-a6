@@ -56,7 +56,7 @@ export default function AdvancedSearch() {
             <Form.Label>Geo Location</Form.Label>
             <Form.Control type="text" {...register("geoLocation")} />
             <Form.Text className="text-muted">
-              Case Sensitive String (ie &quot;Europe&quot;, &quot;France&quot;, &quot;Paris&quot;, &quot;China&quot;, &quot;New York&quot;, etc.), 
+              Case Sensitive String (ie "Europe", "France", "Paris", "China", "New York", etc.), 
               with multiple values separated by the | operator
             </Form.Text>
           </Form.Group>
@@ -67,8 +67,8 @@ export default function AdvancedSearch() {
             <Form.Label>Medium</Form.Label>
             <Form.Control type="text" {...register("medium")} />
             <Form.Text className="text-muted">
-              Case Sensitive String (ie: &quot;Ceramics&quot;, &quot;Furniture&quot;, &quot;Paintings&quot;, &quot;Sculpture&quot;, 
-              &quot;Textiles&quot;, etc.), with multiple values separated by the | operator
+              Case Sensitive String (ie: "Ceramics", "Furniture", "Paintings", "Sculpture", 
+              "Textiles", etc.), with multiple values separated by the | operator
             </Form.Text>
           </Form.Group>
         </Col>
@@ -83,4 +83,3 @@ export default function AdvancedSearch() {
     </Form>
   );
 }
-
